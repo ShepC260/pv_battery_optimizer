@@ -1,0 +1,13 @@
+{
+  "name": "PV Battery Optimizer",
+  "render_readme": true,
+  "domains": [
+    "sensor",
+    "binary_sensor",
+    "button"
+  ],
+  "country": "GB",
+  "homeassistant": "2025.6.0",
+  "iot_class": "calculated",
+  "persistent_directory": "custom_components/pv_battery_optimizer"
+}

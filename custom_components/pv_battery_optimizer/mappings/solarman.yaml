@@ -1,0 +1,10 @@
+provider: solarman
+entities:
+  inverter_dc_power: sensor.solarman_inverter_dc_power
+  battery_power: sensor.solarman_battery_power
+  battery_soc: sensor.solarman_battery_soc
+  battery_soh: sensor.solarman_battery_soh
+  battery_voltage: sensor.solarman_battery_voltage
+  house_load: sensor.solarman_house_load_power
+  battery_charge_limit_a: sensor.solarman_battery_charge_current_limit
+  battery_discharge_limit_a: sensor.solarman_battery_discharge_current_limit

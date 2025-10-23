@@ -1,0 +1,5 @@
+provider: generic_battery
+entities:
+  battery_power: sensor.battery_power
+  battery_soc: sensor.battery_soc
+  battery_voltage: sensor.battery_voltage

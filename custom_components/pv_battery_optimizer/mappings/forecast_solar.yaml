@@ -1,0 +1,4 @@
+provider: forecast_solar
+entities:
+  energy_production_today: sensor.forecast_solar_energy_production_today
+  energy_production_tomorrow: sensor.forecast_solar_energy_production_tomorrow

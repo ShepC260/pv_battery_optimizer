@@ -1,0 +1,6 @@
+provider: octopus_energy
+entities:
+  import_today: event.octopus_energy_electricity_current_day_rates
+  import_tomorrow: event.octopus_energy_electricity_next_day_rates
+  export_today: event.octopus_energy_electricity_export_current_day_rates
+  export_tomorrow: event.octopus_energy_electricity_export_next_day_rates

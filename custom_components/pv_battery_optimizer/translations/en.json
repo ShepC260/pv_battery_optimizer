@@ -1,0 +1,19 @@
+{
+  "title": "PV Battery Optimizer",
+  "config": {
+    "step": {
+      "user": {
+        "title": "PV Battery Optimizer Setup",
+        "description": "Choose mapping mode and options."
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options",
+        "description": "Change mapping mode and diagnostics."
+      }
+    }
+  }
+}

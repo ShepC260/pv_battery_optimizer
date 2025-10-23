@@ -1,0 +1,19 @@
+
+views:
+  - title: PV Optimizer
+    path: pv_optimizer
+    cards:
+      - type: markdown
+        content: |
+          ## ☀️ PV Battery Optimizer — v0.4.5-dev
+          **Build Date:** {{ now().strftime('%Y-%m-%d %H:%M:%S') }}
+          **Mode:** Developer Test Build (Locked)
+          ---
+          This is a developer pre-release version for testing.
+      - type: entities
+        title: Status
+        entities:
+          - sensor.pv_battery_optimizer_provider_summary
+          - binary_sensor.pv_battery_optimizer_fault
+          - sensor.pv_battery_optimizer_integrations
+          - sensor.pv_battery_optimizer_schedule

@@ -1,0 +1,6 @@
+provider: solaredge
+entities:
+  inverter_dc_power: sensor.solaredge_power
+  battery_power: sensor.solaredge_battery_power
+  battery_soc: sensor.solaredge_battery_soc
+  house_load: sensor.solaredge_load_power

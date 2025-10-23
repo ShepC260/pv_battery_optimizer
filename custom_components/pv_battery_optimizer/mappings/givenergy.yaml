@@ -1,0 +1,6 @@
+provider: givenergy
+entities:
+  inverter_dc_power: sensor.givenergy_inverter_power
+  battery_power: sensor.givenergy_battery_power
+  battery_soc: sensor.givenergy_battery_soc
+  house_load: sensor.givenergy_load_power

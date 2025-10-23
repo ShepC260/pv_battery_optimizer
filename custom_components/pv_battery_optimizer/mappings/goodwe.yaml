@@ -1,0 +1,6 @@
+provider: goodwe
+entities:
+  inverter_dc_power: sensor.goodwe_pv_power
+  battery_power: sensor.goodwe_battery_power
+  battery_soc: sensor.goodwe_battery_soc
+  house_load: sensor.goodwe_load_power

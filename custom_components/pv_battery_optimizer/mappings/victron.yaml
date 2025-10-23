@@ -1,0 +1,6 @@
+provider: victron
+entities:
+  inverter_dc_power: sensor.victron_pv_power
+  battery_power: sensor.victron_battery_power
+  battery_soc: sensor.victron_battery_soc
+  house_load: sensor.victron_load_power

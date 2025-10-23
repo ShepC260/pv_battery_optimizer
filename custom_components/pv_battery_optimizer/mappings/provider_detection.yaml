@@ -1,0 +1,52 @@
+providers:
+  solarman:
+    match: solarman
+    mapping_file: solarman.yaml
+  octopus_energy:
+    match: octopus_energy
+    mapping_file: octopus_energy.yaml
+  solcast:
+    match: solcast
+    mapping_file: solcast.yaml
+  forecast_solar:
+    match: forecast_solar
+    mapping_file: forecast_solar.yaml
+  givenergy:
+    match: givenergy
+    mapping_file: givenergy.yaml
+  foxess:
+    match: foxess
+    mapping_file: foxess.yaml
+  goodwe:
+    match: goodwe
+    mapping_file: goodwe.yaml
+  growatt:
+    match: growatt
+    mapping_file: growatt.yaml
+  sunsynk:
+    match: sunsynk
+    mapping_file: sunsynk.yaml
+  fronius:
+    match: fronius
+    mapping_file: fronius.yaml
+  solaredge:
+    match: solaredge
+    mapping_file: solaredge.yaml
+  enphase:
+    match: enphase
+    mapping_file: enphase.yaml
+  victron:
+    match: victron
+    mapping_file: victron.yaml
+  tesla_powerwall:
+    match: powerwall
+    mapping_file: tesla_powerwall.yaml
+  generic_solar:
+    match: solar
+    mapping_file: generic_solar.yaml
+  generic_battery:
+    match: battery
+    mapping_file: generic_battery.yaml
+  custom:
+    match: custom
+    mapping_file: custom.yaml

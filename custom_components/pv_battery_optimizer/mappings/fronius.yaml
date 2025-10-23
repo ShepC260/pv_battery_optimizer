@@ -1,0 +1,6 @@
+provider: fronius
+entities:
+  inverter_dc_power: sensor.fronius_solar_power
+  battery_power: sensor.fronius_battery_power
+  battery_soc: sensor.fronius_battery_soc
+  house_load: sensor.fronius_load

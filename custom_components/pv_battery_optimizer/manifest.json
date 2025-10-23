@@ -1,0 +1,23 @@
+{
+  "domain": "pv_battery_optimizer",
+  "name": "PV Battery Optimizer",
+  "version": "0.4.5-dev",
+  "documentation": "https://github.com/ShepC260/pv_battery_optimizer",
+  "issue_tracker": "https://github.com/ShepC260/pv_battery_optimizer/issues",
+  "codeowners": [
+    "@ShepC260"
+  ],
+  "requirements": [],
+  "dependencies": [],
+  "iot_class": "calculated",
+  "integration_type": "hub",
+  "config_flow": true,
+  "after_dependencies": [
+    "sensor",
+    "binary_sensor",
+    "button"
+  ],
+  "loggers": [
+    "custom_components.pv_battery_optimizer"
+  ]
+}

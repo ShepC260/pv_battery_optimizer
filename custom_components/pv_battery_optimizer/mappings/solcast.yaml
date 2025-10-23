@@ -1,0 +1,6 @@
+provider: solcast
+entities:
+  forecast_today: sensor.solcast_pv_forecast_forecast_today
+  forecast_tomorrow: sensor.solcast_pv_forecast_forecast_tomorrow
+  forecast_detail_today: sensor.solcast_pv_forecast_forecast_today_detail
+  forecast_detail_tomorrow: sensor.solcast_pv_forecast_forecast_tomorrow_detail

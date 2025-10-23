@@ -1,0 +1,6 @@
+provider: enphase
+entities:
+  inverter_dc_power: sensor.enphase_solar_power
+  battery_power: sensor.enphase_battery_power
+  battery_soc: sensor.enphase_battery_soc
+  house_load: sensor.enphase_load_power

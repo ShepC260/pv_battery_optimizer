@@ -1,0 +1,6 @@
+provider: sunsynk
+entities:
+  inverter_dc_power: sensor.sunsynk_pv_power
+  battery_power: sensor.sunsynk_battery_power
+  battery_soc: sensor.sunsynk_battery_soc
+  house_load: sensor.sunsynk_load_power

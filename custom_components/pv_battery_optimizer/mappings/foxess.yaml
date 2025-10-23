@@ -1,0 +1,6 @@
+provider: foxess
+entities:
+  inverter_dc_power: sensor.foxess_pv_power
+  battery_power: sensor.foxess_battery_power
+  battery_soc: sensor.foxess_battery_soc
+  house_load: sensor.foxess_load_power

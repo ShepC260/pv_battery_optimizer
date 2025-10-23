@@ -1,0 +1,6 @@
+provider: tesla_powerwall
+entities:
+  inverter_dc_power: sensor.powerwall_solar_now
+  battery_power: sensor.powerwall_battery_now
+  battery_soc: sensor.powerwall_charge
+  house_load: sensor.powerwall_site_now

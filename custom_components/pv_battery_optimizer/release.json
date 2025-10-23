@@ -1,0 +1,33 @@
+{
+  "name": "PV Battery Optimizer",
+  "version": "0.4.5-dev",
+  "channel": "development",
+  "release_date": "2025-10-23",
+  "build_status": "locked",
+  "description": "Developer milestone build including Dynamic Current Optimization, Auto-Detection, and Custom Mapping support.",
+  "compatibility": {
+    "homeassistant_min_version": "2025.6.0",
+    "python_min_version": "3.11"
+  },
+  "features": [
+    "Dynamic Current Optimization",
+    "Integration Auto-Detection & Mapping",
+    "Manual & Scheduled DCO Refresh",
+    "Robust Fault Handling & Self-Use Fallback",
+    "Adaptive Dashboard",
+    "Example Automations (Manual Control Only)"
+  ],
+  "docs": {
+    "readme": "https://github.com/ShepC260/pv_battery_optimizer/blob/main/README.md",
+    "changelog": "https://github.com/ShepC260/pv_battery_optimizer/blob/main/CHANGELOG.md",
+    "release_notes": "https://github.com/ShepC260/pv_battery_optimizer/blob/main/docs/release_notes_v0.4.5.md",
+    "troubleshooting": "https://github.com/ShepC260/pv_battery_optimizer/blob/main/docs/troubleshooting.md"
+  },
+  "maintainers": [
+    {
+      "name": "Carl Shepherd",
+      "github": "ShepC260",
+      "role": "Lead Developer"
+    }
+  ]
+}
